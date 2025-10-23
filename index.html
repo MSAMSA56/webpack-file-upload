@@ -1,1 +1,67 @@
-<!doctype html><html lang="en"><head><title>Example Domain</title><meta name="viewport" content="width=device-width, initial-scale=1"><style>body{background:#eee;width:60vw;margin:15vh auto;font-family:system-ui,sans-serif}h1{font-size:1.5em}div{opacity:0.8}a:link,a:visited{color:#348}</style><body><div><h1>Example Domain</h1><p>This domain is for use in documentation examples without needing permission. Avoid use in operations.<p><a href="https://iana.org/domains/example">Learn more</a></div></body></html>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مشروع تحميل الملفات - Webpack File Upload</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>مرحباً بك في مشروع تحميل الملفات</h1>
+            <p>هذا مشروع لتحميل الملفات باستخدام Webpack</p>
+        </header>
+        
+        <main>
+            <section class="upload-section">
+                <h2>تحميل الملفات</h2>
+                <div class="upload-area" id="uploadArea">
+                    <div class="upload-content">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7,10 12,15 17,10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                        </svg>
+                        <h3>اسحب الملفات هنا أو انقر للاختيار</h3>
+                        <p>يدعم جميع أنواع الملفات</p>
+                    </div>
+                    <input type="file" id="fileInput" multiple hidden>
+                </div>
+                
+                <div class="file-list" id="fileList">
+                    <!-- سيتم عرض الملفات المحملة هنا -->
+                </div>
+            </section>
+            
+            <section class="features">
+                <h2>المميزات</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>🚀 سرعة عالية</h3>
+                        <p>تحميل سريع للملفات باستخدام تقنيات حديثة</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>📁 دعم متعدد الملفات</h3>
+                        <p>إمكانية تحميل عدة ملفات في نفس الوقت</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>🔒 آمان</h3>
+                        <p>حماية متقدمة للملفات المحملة</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>📱 متجاوب</h3>
+                        <p>يعمل على جميع الأجهزة والشاشات</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 2025 مشروع تحميل الملفات. جميع الحقوق محفوظة.</p>
+        </footer>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
